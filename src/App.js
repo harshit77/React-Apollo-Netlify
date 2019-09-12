@@ -5,7 +5,7 @@ import { gql } from "apollo-boost";
 import { ApolloProvider, Query } from "react-apollo";
 import ApolloClient from "apollo-boost";
 const client = new ApolloClient({
-  uri: "http://localhost:9000/graphql"
+  uri: "/.netlify/functions/graphql"
 });
 
 // Replace the previous LambdaDemo with the code below:
